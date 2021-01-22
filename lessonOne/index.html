@@ -2,39 +2,43 @@
 <html>
    <head>
         <title>learnHtml</title>
-    <style>
-        .header{
-            color: darkturquoise;
-            border: 10px solid yellow;
-            }
-        #accessories{
-            background-image: none;
-            color: chartreuse;
-            border: 10px solid purple;
-            }
-        .content{
-            color: chartreuse;
-            }
-        #foter{
-            background-color: chartreuse;
-            }
-        #platform{
-            background-color: chartreuse;
-            margin: 50px;
-            }
-        #design{
-            background-color: white;
-            font-style: italic;
-            margin: 50px;
-            border: 15px solid pink;
-            }
-        #imgs{
-            background-color: chartreuse;
-            }
-        </style>    
+<style>
+    .header{
+        color: darkturquoise;
+        border: 10px solid yellow;
+        }
+    .content{
+        color: chartreuse;
+        }
+    #imgs{
+        background-color: chartreuse;
+        }
+    #platform{
+        background-color: chartreuse;
+        margin: 50px;
+        }
+    #accessories{
+        background-image: none;
+        color: chartreuse;
+        border: 10px solid purple;
+        }
+    #foter{
+        background-color: chartreuse;
+        font-family: Fantasy;
+        }
+    
+    #design{
+        background-color: white;
+        font-style: italic;
+        margin: 50px;
+        border: 15px solid pink;
+        }
+    
+    </style>
 </head>
- <div id="design">
-    <body>
+
+<div id="design">
+<body>
     <div class="header">
         <h2><u>Header</u></h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sint fugiat expedita natus recusandae a nisi facere non esse rerum, laudantium soluta in consequuntur perspiciatis tempore, cum pariatur iusto dolores!</p> 
@@ -43,40 +47,81 @@
     </div>
     <div class="content">
         <h3><u>content section</u></h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam! Perferendis in debitis rerum est iure! Iure rem nisi expedita, incidunt, inventore illum eius, obcaecati magnam maxime ut adipisci quaerat!</p>
-        <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam! Perferendis in debitis rerum est iure! Iure rem nisi expedita, incidunt, inventore illum eius, obcaecati magnam maxime ut adipisci quaerat!</p><hr>
     </div>
     <div id="imgs">
-        <h2>roocket</h2>
-            <hr>
+        <h2>roocket</h2><hr>
             <img style="size: width=100px heitht=80;" src="./php.jpg" alt="go to home page">
             <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.Dolor quas qui tempore. <br> Numquam laborum facilis, praesentium provident cum cupiditate incidunt eius omnis, ullam sapiente ipsa corporis mollitia vel, dolor distinctio.
-            <a href="https:www.apple.com">apple</a>
-            <hr>
+            <a href="https:www.apple.com">apple</a><hr>
     </div>
     <div id="platform">
         <h2>Ios platform</h2>
-        <ul>
-            <li><a href="https://www.apple.com/ipad/" title="_self">Ipad</a></li>
-            <li><a href="https://www.apple.com/mac/">Mac</a></li>
-            <li><a href="https://www.apple.com/TV/">Tv</a></li>
-        </ul>
-        <hr>
-    </div>
+    <ul>
+        <li><a href="https://www.apple.com/ipad/" title="_self">Ipad</a></li>
+        <li><a href="https://www.apple.com/mac/">Mac</a></li>
+        <li><a href="https://www.apple.com/TV/">Tv</a></li>
+    </ul><hr>
+</div>
+<div id="accessories">
+    <h1>Accessories of apple</h1>
+    <ul>
+        <li><a href="https://www.apple.com/watch/">Apple watch</a></li>
+        <li><a href="htttps://www.apple.com/bands/">bands</a></li>
+        <li><a href="https://www.apple.com/airpods/">airpods</a></li>
+    </ul><hr>
+</div>   
+<div id="foter">
+    <h2>information</h2>
+        <form action="#">
+    <label>Name :</label>
+    <input type="text" name="name">
+<br><br>
+    <label>age :</label>
+    <input type="date" name="age">
+<br>
+    <h4>Genrad</h4>
+        <label>Men </label>
+        <input type="radio" name="sender">
 
-    <div id="accessories">
-        <h1>Accessories of apple</h1>
-        <ul>
-          <li><a href="https://www.apple.com/watch/">Apple watch</a></li>
-          <li><a href="htttps://www.apple.com/bands/">bands</a></li>
-          <li><a href="https://www.apple.com/airpods/">airpods</a></li>
-        </ul>
-        <hr>
-    </div>   
+        <label>Women </label>
+        <input type="radio" name="sender">
 
-        <div id="foter">
-           <h2>از صبر و شکسبایی شما متشکریم</h2>
-       </div>
+        <label>Non of our bissne /: </label>
+        <input type="radio" name="sender">
+<br><br>
+
+    <label>phone number :</label>
+    <input type="text" name="phone number" value="+98">
+<br><br> 
+
+    <textarea id="recaomend" cols="60" rows="10"></textarea>
+<br>  
+
+        <input type="submit" value="send">
+    </form>
+<hr><hr>
+
+    <h2>login form</h2>
+    <form>
+        <label>fullname :</label>
+        <input type="text" name="fullname">
+<br><br>
+
+    <label>email :</label>
+    <input type="email" name="email">
+<br><br>
+        
+    <label>password :</label>
+    <input type="password" name="password">
+<br><br>
+        
+    <button type="submit">login</button>
+
+    <a href="https://accounts.google.com/singin">Singin</a>
+    </form>
+<hr>
+</div>
 
     </body>
 </div>
