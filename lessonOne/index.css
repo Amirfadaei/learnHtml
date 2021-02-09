@@ -1,0 +1,39 @@
+ div#design {
+        background-color: white;
+        font-style: italic;
+        margin: 50px;
+        border: 15px solid pink;
+        }
+
+div#header{
+    color: darkturquoise;
+    border: 10px solid yellow;
+    }
+
+div#content{
+    color: chartreuse;
+    }
+
+div#imgs{
+    background-color: chartreuse;
+    }
+
+div#platform{
+    background-color: chartreuse;
+    margin: 50px;
+    }
+
+div#accessories{
+    background-image: none;
+    color: chartreuse;
+    border: 10px solid purple;
+    }
+    
+div#foter{ 
+    background-color: chartreuse;
+    font-family: Fantasy;
+    } 
+
+#for{
+    font-size:x-small;
+}
