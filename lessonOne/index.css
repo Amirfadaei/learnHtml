@@ -1,39 +1,44 @@
- div#design {
+ div.design {
         background-color: white;
         font-style: italic;
         margin: 50px;
         border: 15px solid pink;
         }
 
-div#header{
+/* div.header{
+    color: darkturquoise;
+    border: 10px solid yellow;
+    } */
+
+body div .header{
     color: darkturquoise;
     border: 10px solid yellow;
     }
 
-div#content{
+body div .content{
     color: chartreuse;
     }
 
-div#imgs{
+body div .imgs{
     background-color: chartreuse;
     }
 
-div#platform{
+body div .platform{
     background-color: chartreuse;
     margin: 50px;
     }
 
-div#accessories{
+body div .accessories{
     background-image: none;
     color: chartreuse;
     border: 10px solid purple;
     }
     
-div#foter{ 
-    background-color: chartreuse;
+body div .foter{ 
+    background-color: coral;
     font-family: Fantasy;
     } 
 
-#for{
-    font-size:x-small;
+body div .login form{
+    background-color: darkgoldenrod;
 }
