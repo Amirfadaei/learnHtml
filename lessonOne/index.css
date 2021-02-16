@@ -1,44 +1,46 @@
- div.design {
-        background-color: white;
-        font-style: italic;
-        margin: 50px;
-        border: 15px solid pink;
+    div.design {
+            background-color: white;
+            font-style: italic;
+            margin: 50px;
+            border: 15px solid pink;
+            }
+
+    body div .header{
+        color: darkturquoise;
+        border: 10px solid yellow;
         }
 
-/* div.header{
-    color: darkturquoise;
-    border: 10px solid yellow;
-    } */
+    body div .content{
+        color: chartreuse;
+        }
 
-body div .header{
-    color: darkturquoise;
-    border: 10px solid yellow;
+    body div .imgs{
+        background-color: chartreuse;
+        }
+
+    body div .platform{
+        background-color: chartreuse;
+        margin: 50px;
+        }
+
+    body div .accessories{
+        background-image: none;
+        color: chartreuse;
+        border: 10px solid purple;
+        }
+        
+    body div .foter{ 
+        background-color: coral;
+        font-family: Fantasy;
+        } 
+
+    body div .login form{
+        background-color: darkgoldenrod;
     }
 
-body div .content{
-    color: chartreuse;
-    }
+    body div.img a []
 
-body div .imgs{
-    background-color: chartreuse;
-    }
 
-body div .platform{
-    background-color: chartreuse;
-    margin: 50px;
-    }
 
-body div .accessories{
-    background-image: none;
-    color: chartreuse;
-    border: 10px solid purple;
-    }
-    
-body div .foter{ 
-    background-color: coral;
-    font-family: Fantasy;
-    } 
 
-body div .login form{
-    background-color: darkgoldenrod;
-}
+
