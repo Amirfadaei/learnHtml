@@ -1,46 +1,68 @@
-    div.design {
-            background-color: white;
+    .design {
+            background-color: purple;
             font-style: italic;
             margin: 50px;
             border: 15px solid pink;
             }
 
-    body div .header{
+    body div
+    .header{
         color: darkturquoise;
         border: 10px solid yellow;
-        }
-
-    body div .content{
+    }
+    .content{
         color: chartreuse;
-        }
-
-    body div .imgs{
+    }
+    #main{
         background-color: chartreuse;
+    }
+
+    .title{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
         }
 
-    body div .platform{
+    .foter{ 
+        background-color: coral;
+        font-family: Fantasy;
+    } 
+
+    .login form{
+        background-color: darkgoldenrod;
+        font-weight: bold;
+    }
+
+    #recomend{
+        background-color: aqua;
+    }
+
+    body div.imgs{
+        size: 200px*80px;
+    }
+    
+    /* body div#main.ImgSize#php{
+    height: 5cm;
+    width: 250px;
+    }
+
+    body div#main.ImgSize#jfif{
+    height: 5cm; 
+    width: 250px;
+    } */
+
+
+
+
+
+    
+   /* .platform{
         background-color: chartreuse;
         margin: 50px;
-        }
+    }
 
-    body div .accessories{
+    .accessories{
         background-image: none;
         color: chartreuse;
         border: 10px solid purple;
-        }
-        
-    body div .foter{ 
-        background-color: coral;
-        font-family: Fantasy;
-        } 
-
-    body div .login form{
-        background-color: darkgoldenrod;
     }
-
-    body div.img a []
-
-
-
-
+        
 
